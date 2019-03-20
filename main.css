@@ -1,0 +1,35 @@
+#parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display:flex;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row-reverse;
+    border: solid 1px #ededed;
+    margin-bottom: 25px;
+    height: 150px;
+    box-shadow: 5px 5px 5px -1px #ededed;
+}
+
+#title {
+    width: 150px;
+}
+
+#thumbnail > img {
+    height: 125px;
+    width: 125px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+     #container {
+        width: 350px;
+    }
+}
